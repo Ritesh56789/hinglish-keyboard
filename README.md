@@ -12,13 +12,12 @@ A lightweight, edge-deployable predictive typing system for Hinglish (Hindi-Engl
 - **Dynamic OOV masking** and per-user style personalization.
 - **13.6M params, <25MB**, Perplexity ≈ 23.5 — built for edge deployment.
 
-Full write-up: [`PBoard_Project.pdf`](./PBoard_Project.pdf)
+
 
 ## Contents
 
 | File | Description |
 |---|---|
-| `PBoard_Project.pdf` | Full technical report |
 | `word2idx.json` / `idx2word.json` | Vocabulary maps |
 | `verified_sandwich_map.json` | Validated BDCI normalization pairs |
 | `oov_map.json` | Shortform/typo → root word mappings |
